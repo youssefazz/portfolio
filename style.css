@@ -51,6 +51,24 @@ h1,h2,h3{
     margin: 10px;
     color: #62BFED;
 }
+@media(max-width: 960px){
+    .card{
+        width: 800px;
+    }
+}
+@media(max-width: 720px){
+    .card{
+        width: 600px;
+    }
+}
+@media(max-width: 480px){
+    .card{
+        width: 150px;
+    }
+    .card-header{
+        width: 150px;
+    }
+}
 #img-profile{
     margin-right: 30px;
     width: 200px;
